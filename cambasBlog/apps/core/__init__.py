@@ -1,0 +1,1 @@
+default_app_config = 'cambasBlog.apps.core.apps.CoreConfig'

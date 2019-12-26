@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        {% include 'includes/jumbotron.html' %}
+        <div class="row posts">
+            <div class="col-md-12">
+                <div id="title-post"></div>
+                <div id="date-post"></div>
+                <div id="author-post"></div>
+                <div id="author-country"></div>
+                <div id="content-post">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block scripts %}
+    <script src="{% static 'js/post-detail.js' %}"></script>
+{% endblock %}

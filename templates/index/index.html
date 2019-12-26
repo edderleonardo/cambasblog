@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- Page Content -->
+  <div class="container">
+    {% include 'includes/jumbotron.html' %}
+    <div class="row">
+      <div class="col-md-4">
+        <select name="select-author" id="select-author" class="form-control"></select>
+      </div>
+      <div class="col-md-4">
+        <select name="select-country" id="select-country" class="form-control"></select>
+      </div>
+      <button class="btn btn-primary" id="btn-filter">Filtrar</button>
+    </div>
+    <br>
+    <!-- Page Features -->
+    <div class="row text-center" id="content-posts">
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+{% endblock %}
+{% block scripts %}
+  <script src="{% static 'js/posts.js' %}"></script>
+  <script src="{% static 'js/filters.js' %}"></script>
+{% endblock %}
