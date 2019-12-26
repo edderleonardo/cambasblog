@@ -1,0 +1,1219 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "token"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "cambasBlog_users",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "cambasBlog_blog",
+        "model": "blog"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "cambasBlog_core",
+        "model": "country"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ki5v3yst7ykcm0d1p5f26cd6xrijgi9n",
+    "fields": {
+        "session_data": "OTA4Y2FkYzhhZTI2YTdjYmM3ODRkY2ZlNDMyYjhlMTJmNDlhY2I2ZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjYTVhNzZiNGY3ZWVlMGYwYjNkMTc3ZDY4ZTcyM2RlYTcyOTA2ZjNlIn0=",
+        "expire_date": "2020-01-09T04:22:03.594Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rj71j0scf93886tb9bedjlg8rursn73e",
+    "fields": {
+        "session_data": "OTA4Y2FkYzhhZTI2YTdjYmM3ODRkY2ZlNDMyYjhlMTJmNDlhY2I2ZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjYTVhNzZiNGY3ZWVlMGYwYjNkMTc3ZDY4ZTcyM2RlYTcyOTA2ZjNlIn0=",
+        "expire_date": "2020-01-08T18:55:13.830Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "shypcbf8p9wkx5bfv23e1ltchkgl5u25",
+    "fields": {
+        "session_data": "OTA4Y2FkYzhhZTI2YTdjYmM3ODRkY2ZlNDMyYjhlMTJmNDlhY2I2ZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjYTVhNzZiNGY3ZWVlMGYwYjNkMTc3ZDY4ZTcyM2RlYTcyOTA2ZjNlIn0=",
+        "expire_date": "2020-01-07T03:48:44.606Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "cambasBlog_core.country",
+    "pk": 1,
+    "fields": {
+        "name": "M\u00e9xico"
+    }
+},
+{
+    "model": "cambasBlog_core.country",
+    "pk": 2,
+    "fields": {
+        "name": "Estados Unidos"
+    }
+},
+{
+    "model": "cambasBlog_core.country",
+    "pk": 3,
+    "fields": {
+        "name": "Canad\u00e1"
+    }
+},
+{
+    "model": "cambasBlog_core.country",
+    "pk": 4,
+    "fields": {
+        "name": "China"
+    }
+},
+{
+    "model": "cambasBlog_core.country",
+    "pk": 5,
+    "fields": {
+        "name": "Brasil"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add site",
+        "content_type": 6,
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change site",
+        "content_type": 6,
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete site",
+        "content_type": 6,
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view site",
+        "content_type": 6,
+        "codename": "view_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Token",
+        "content_type": 7,
+        "codename": "add_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Token",
+        "content_type": 7,
+        "codename": "change_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": 7,
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Token",
+        "content_type": 7,
+        "codename": "view_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 8,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 8,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 8,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 8,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add blog",
+        "content_type": 9,
+        "codename": "add_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change blog",
+        "content_type": 9,
+        "codename": "change_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete blog",
+        "content_type": 9,
+        "codename": "delete_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view blog",
+        "content_type": 9,
+        "codename": "view_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add country",
+        "content_type": 10,
+        "codename": "add_country"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change country",
+        "content_type": 10,
+        "codename": "change_country"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete country",
+        "content_type": 10,
+        "codename": "delete_country"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view country",
+        "content_type": 10,
+        "codename": "view_country"
+    }
+},
+{
+    "model": "cambasBlog_users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$XCFJo3jbENv8$e3bR2GXfcD1bAxZOw8lnwLPvZV64US40PukRkA6o3xM=",
+        "last_login": "2019-12-26T04:22:03Z",
+        "is_superuser": true,
+        "email": "edderleonardo@gmail.com",
+        "username": "",
+        "name": "",
+        "last_name": "",
+        "country": 3,
+        "avatar": "",
+        "ppoi": "0.5x0.5",
+        "is_active": true,
+        "is_staff": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "cambasBlog_users.user",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$x6xW3dfRCB7j$6bgpcY6DnrMnmpi94lqqaeYAbEvmZ1m9jg9Kp3LrMZ8=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "00051528@red.unid.mx",
+        "username": "imendoza",
+        "name": "Ivania",
+        "last_name": "Mendoza",
+        "country": 5,
+        "avatar": "",
+        "ppoi": "0.5x0.5",
+        "is_active": true,
+        "is_staff": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "cambasBlog_users.user",
+    "pk": 18,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$emr8WIjgTlqW$J0+OErBzO0Ucume26IW3Bl92M26mXbCsMIGg7xufr98=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "edderleonardo@outlook.com",
+        "username": "edder",
+        "name": "Edder Leonardo",
+        "last_name": "Carrillo",
+        "country": 2,
+        "avatar": "",
+        "ppoi": "0.5x0.5",
+        "is_active": true,
+        "is_staff": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "cambasBlog_users.user",
+    "pk": 19,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$SV39nexUzjmD$L/ttLahcCtX03jcBboPWA4VKvhoBcE2bdgQCYxd4Nao=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "Rodrigososa95@live.com.mx",
+        "username": "",
+        "name": "",
+        "last_name": "",
+        "country": 2,
+        "avatar": "",
+        "ppoi": "0.5x0.5",
+        "is_active": true,
+        "is_staff": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 1,
+    "fields": {
+        "published": "2019-12-25T00:09:45Z",
+        "title": "Integrating Slack with Django Part One",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui. Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras at interdum ante. Ut gravida pharetra ligula vitae malesuada. Sed eget libero et arcu tempor tincidunt in ac lectus. Maecenas vitae felis enim. In in tellus consequat, condimentum eros vitae, lacinia risus.",
+        "author": 13
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 2,
+    "fields": {
+        "published": "2019-12-26T04:24:22Z",
+        "title": "Your Next App May Not Have a Back End",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent.",
+        "author": 13
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 3,
+    "fields": {
+        "published": "2019-12-26T04:24:49Z",
+        "title": "How I Build My Own Amazon S3 Storage",
+        "content": "Recently I decided to move my side projects to Heroku. But Heroku does not provide a way to host media files. You need to use external storage for that (Amazon S3 or similar).\r\nUnfortunately, there are no free solutions available and my Amazon Free Tier has expired. So I decided to create my own Amazon S3 Like Storage using Python/Django.",
+        "author": 1
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 4,
+    "fields": {
+        "published": "2019-12-26T04:25:18Z",
+        "title": "Which programming language should you learn to get a remote job?",
+        "content": "Python\r\nPython is a popular programming language used with Django in web development, but with significant growth of Machine Learning, popularity Python popularity grew a lot. Now, it is the second most popular programming language allowing us to get a remote job.\r\nPython remote job offers mainly mention AI, Machine Learning, and data science, so if you are a Python developer, it\u2019s definitely good idea to dive deeper into those subjects to increase your chances to get an opportunity allowing for home office",
+        "author": 1
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 5,
+    "fields": {
+        "published": "2019-12-26T04:25:53Z",
+        "title": "Managing Cookies in Django",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui. Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras at interdum ante. Ut gravida pharetra ligula vitae malesuada.",
+        "author": 18
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 6,
+    "fields": {
+        "published": "2019-12-26T04:26:22Z",
+        "title": "Managing Open-Source Docker Images on Docker Hub using Travis",
+        "content": "I  was working on a small project recently to learn working with the Docker tool chain and get an idea about how things work. I decided to build (yet another) open-source Docker image of etcd and publish it on Docker Hub. Like all open-source projects, building a working Docker image was pretty straight forward and didn\u2019t really take much time. What took more time was the process to publish it nicely that someone can find it useful. And in that process, I learned a few things about working with Docker, Docker Hub and Travis and have a few questions unanswered. So I thought it might be worth documenting my findings and those unanswered questions to get feedback and improve my understanding.",
+        "author": 18
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 7,
+    "fields": {
+        "published": "2019-12-26T04:27:03Z",
+        "title": "Being a Programmer is Not About Writing Code",
+        "content": "Being a programmer is not about knowing how to write code and learning an application framework. Application frameworks have a tendency to lead newcomers to miss the point, and stall their journey just as it\u2019s getting interesting.",
+        "author": 13
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 8,
+    "fields": {
+        "published": "2019-12-26T04:27:40Z",
+        "title": "How you can change the world by learning Data Structures and Algorithms",
+        "content": "As a developer, you have the power to change the world! You can write programs that enable new technologies. For instance, develop software to find an earlier diagnosis of diseases. But, that\u2019s not the only way, you might do it indirectly by creating projects that make people more productive and help them free up time to do other amazing things. Whatever you do, it\u2026",
+        "author": 18
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 9,
+    "fields": {
+        "published": "2019-12-26T04:28:16Z",
+        "title": "Writing Clean Code and the Practice of Programming",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui. Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras at interdum ante. Ut gravida pharetra ligula vitae malesuada.",
+        "author": 18
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 10,
+    "fields": {
+        "published": "2019-12-26T04:28:54Z",
+        "title": "Scrapy and Scrapyrt: how to create your own API from (almost) any website",
+        "content": "Scrapy is a free and open-source web crawling framework written in Python. It allows you to send requests to websites and to parse the HTML code that you receive as response.\r\nWith Scrapyrt (Scrapy realtime), you can create an HTTP server that can control Scrapy through HTTP requests. The\u2026",
+        "author": 13
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 11,
+    "fields": {
+        "published": "2019-12-26T04:29:24Z",
+        "title": "Lifetime Made a Cinematic Universe: Hello, Winter Storm Meghan",
+        "content": "We have been watching a lot of Lifetime movies this holiday season. They actually began their 24/7 Christmas movie marathon before Halloween this year, and we were totally ok with that. For 2019, Lifetime made 30 new holiday movies which premiered regularly throughout December. Many fans, including us, noticed a very fun trend this year: Winter Storm Meghan.",
+        "author": 13
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 12,
+    "fields": {
+        "published": "2019-12-26T04:30:26Z",
+        "title": "Sideload JSON API resources in Django",
+        "content": "I'm a big proponent of using a framework to reduce the time required to make something useful. Occasionally, using a framework means that developers must explore to understand what is possible. This truth is even more evident when there are layers of extensions to achieve a desired result. For instance, College Conductor is driving an EmberJS app with a JSON API powered by Django. The API uses the excellent Django REST Framework and the DRF JSON API extension. DRF JSON API translates from vanilla DRF API serialized output to JSON API flavored output. In this post, I'll cover my exploration of the DRF JSON API source code to find out how to load extra model resources in a single API request.",
+        "author": 1
+    }
+},
+{
+    "model": "cambasBlog_blog.blog",
+    "pk": 13,
+    "fields": {
+        "published": "2019-12-26T04:30:51Z",
+        "title": "Django - DB bulk_create()",
+        "content": "The batch_size parameter controls how many objects are created in a single query. The default is to create all objects in one batch, except for SQLite where the default is such that at most 999 variables per query are used.\r\n\r\nOn databases that support it (all except PostgreSQL < 9.5 and Oracle), setting the ignore_conflicts parameter(this parameter was added in Django 2.2) to True tells the database to ignore failure to insert any rows that fail constraints such as duplicate unique values. Enabling this parameter disables setting the primary key on each model instance (if the database normally supports it).",
+        "author": 1
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "46873674acffa04ccf9bef0bea7bb7ccfe00cc1d",
+    "fields": {
+        "user": 1,
+        "created": "2019-12-25T02:57:15.262Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "4e837cad820b942c97f4525982a5bdf83183dfd0",
+    "fields": {
+        "user": 18,
+        "created": "2019-12-25T20:34:18.513Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "95c0bf2553c373204f1beab1be5ed5ee62c7d8a8",
+    "fields": {
+        "user": 13,
+        "created": "2019-12-24T15:11:58.643Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "b18e9a4f257c3eaf9031254b8e2c1ffcd39ffb1e",
+    "fields": {
+        "user": 19,
+        "created": "2019-12-26T20:27:57.162Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2019-12-24T06:14:30.307Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2019-12-24T06:15:45.269Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2019-12-24T06:18:35.454Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2019-12-24T06:20:48.651Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2019-12-24T06:23:24.617Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2019-12-24T06:25:10.665Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2019-12-24T06:28:02.204Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2019-12-24T06:32:08.573Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2019-12-24T15:06:44.163Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2019-12-24T15:11:49.936Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2019-12-24T15:18:57.431Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "edderleonardo@outlook.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2019-12-24T15:22:41.548Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "14",
+        "object_repr": "edderleonardo@outlook.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2019-12-25T00:09:33.407Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"username\", \"name\", \"last_name\", \"country\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2019-12-25T00:10:54.104Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Integrating Slack with Django Part One",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2019-12-25T19:05:53.550Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "M\u00e9xico",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2019-12-25T19:06:03.280Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Estados Unidos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2019-12-25T19:06:08.082Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Canad\u00e1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2019-12-25T19:06:13.346Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "China",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2019-12-25T19:06:20.739Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Brasil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2019-12-25T20:15:27.266Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "15",
+        "object_repr": "edderleonardo@outlook.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2019-12-25T20:16:44.721Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "16",
+        "object_repr": "edderleonardo@outlook.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2019-12-25T20:31:03.082Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "17",
+        "object_repr": "edderleonardo@outllok.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2019-12-26T04:24:32.963Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Your Next App May Not Have a Back End",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2019-12-26T04:25:04.164Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "How I Build My Own Amazon S3 Storage",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2019-12-26T04:25:37.091Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Which programming language should you learn to get a remote job?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2019-12-26T04:26:05.307Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Managing Cookies in Django",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2019-12-26T04:26:36.238Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Managing Open-Source Docker Images on Docker Hub using Travis",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2019-12-26T04:27:21.721Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Being a Programmer is Not About Writing Code",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2019-12-26T04:27:57.683Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "How you can change the world by learning Data Structures and Algorithms",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2019-12-26T04:28:39.023Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Writing Clean Code and the Practice of Programming",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2019-12-26T04:29:11.444Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Scrapy and Scrapyrt: how to create your own API from (almost) any website",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2019-12-26T04:29:40.560Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "Lifetime Made a Cinematic Universe: Hello, Winter Storm Meghan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2019-12-26T04:30:37.766Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "Sideload JSON API resources in Django",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2019-12-26T04:31:07.749Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "Django - DB bulk_create()",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2019-12-26T15:42:45.393Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "00051528@red.unid.mx",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"country\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2019-12-26T15:42:51.881Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "edderleonardo@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"country\"]}}]"
+    }
+}
+]
