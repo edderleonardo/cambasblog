@@ -19,7 +19,7 @@ $(function() {
     const btn_register = $('#register');
 
     const clean_fields = function () {
-        username_register.val();
+        username_register.val('');
         email_register.val('');
         password_register.val('');
         name_register.val('');
